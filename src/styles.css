@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(./assets/21553508_26381843066962.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+header{
+    color: white;
+    height: 50px;
+    background-color:#0B2518;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #0B2518;
+    position: fixed;
+    bottom: 0;
+}

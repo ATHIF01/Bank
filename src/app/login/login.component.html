@@ -1,0 +1,15 @@
+<div class="mt-4 mb-3 ms-3">
+    <h3>{{data}}</h3>
+</div>
+        <form action="" class="mt-2 p-3 container w-25 text-center bg-dark bg-opacity-50 rounded-3 mt-5 align-item-center">
+            <h2 id="w1" class=" text-center mt-1 p-2 ">Sign In</h2>
+            <div class="mb-3 mt-3">
+                <input (change)="acnoChange($event)" id="u1" name="uname" class="form-control  p-2 " type="text" [placeholder]="data1">
+            </div>
+            <div class="mb-3 mt-3">
+                <input (change)="passChange($event)" id="p1" name="password" class="form-control  p-2 " type="password" placeholder="Enter Password">
+            </div>
+            <button (click)="login()" class="btn btn-info text-center mt-4">Sign In</button>
+            
+        </form>
+
